@@ -4,7 +4,7 @@ import Slider from './components/Slider'
 export default function Home() {
     return (
         <div className="">
-            <Slider category="jewelery" />
+            <Slider category="men's clothing" />
         </div>
     )
 }

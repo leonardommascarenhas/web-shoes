@@ -15,7 +15,7 @@ export default function Slider({ category }: SliderProps) {
     useEffect(() => {
         const fetchData = async () => {
             const data = await fetch(
-                `https://fakestoreapi.com/products/category/${category}?limit=3`
+                `https://fakestoreapi.com/products/category/${category}`
             )
             const products = await data.json()
             setListOfProducts(products)
